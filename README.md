@@ -34,3 +34,44 @@
 - **v1.3**: 新增 Ctrl 鍵暫時顯示功能。
 - **v1.2**: 修復畫面空白問題 (修正過於激進的 CSS)。
 - **v1.1**: 基本功能實作。
+
+---
+
+# Disable Google Sheets Link Preview
+
+This is a Chrome extension designed to **disable the annoying preview popup that appears when hovering over links in Google Sheets**.
+
+## Features
+
+1.  **Disable Preview by Default**: No more automatic popups when you move your mouse over links.
+2.  **Hold Ctrl to Peek**: If you need to see the preview, simply hold the `Ctrl` key and hover over the link.
+3.  **Quick Toggle**: Click the extension icon to enable or disable the functionality at any time.
+4.  **Dark Mode Support**: Icons are optimized for both light and dark themes.
+5.  **Multi-Language Support**: Supports 10 languages including English, Chinese, Japanese, Korean, etc.
+
+## Installation
+
+Since this extension is not yet published on the Chrome Web Store, please follow these steps to install:
+
+1.  Download the code for this project (or Clone this Repo).
+2.  Open Chrome, type `chrome://extensions` in the address bar, and press Enter.
+3.  Toggle on **"Developer mode"** in the top right corner.
+4.  Click **"Load unpacked"** in the top left corner.
+5.  Select the folder of this project (`Google excel delink`).
+6.  Done!
+
+## Usage
+
+- **Normal Usage**: It works immediately after installation. Hovering over links will trigger nothing.
+- **When You Need Preview**: Hold the `Ctrl` key and hover over the link.
+- **Temporarily Disable**: Click the extension icon in the browser toolbar and toggle the switch to off.
+
+## Version History
+
+- **v1.7**: Added multi-language support (10 languages) and UI title.
+- **v1.6**: Updated icon design: paperclip with a cross.
+- **v1.5**: Renamed to Chinese name, consolidated icons.
+- **v1.4**: Added toggle switch.
+- **v1.3**: Added "Hold Ctrl to Peek" feature.
+- **v1.2**: Fixed blank screen issue (corrected aggressive CSS).
+- **v1.1**: Basic functionality implemented.
