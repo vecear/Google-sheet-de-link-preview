@@ -1,0 +1,30 @@
+/* 
+  Google Sheets Link Preview Disabler v1.4
+  Conditional hiding: 
+  - Hidden IF NOT (.show-link-previews) AND NOT (.extension-disabled)
+*/
+
+/* 
+   We target the body:
+   1. NOT having 'show-link-previews' (Ctrl key)
+   2. NOT having 'extension-disabled' (Toggle switch)
+*/
+body:not(.show-link-previews):not(.extension-disabled) .waffle-multilink-tooltip,
+body:not(.show-link-previews):not(.extension-disabled) .docs-link-bubble-card,
+body:not(.show-link-previews):not(.extension-disabled) .docs-smart-chip-hover-bubble,
+body:not(.show-link-previews):not(.extension-disabled) .appsElementsLinkPreviewBaseRoot,
+body:not(.show-link-previews):not(.extension-disabled) #docs-link-bubble,
+/* Our JS tagging class for generic detections */
+body:not(.show-link-previews):not(.extension-disabled) .detected-link-popup,
+/* Internal parts */
+body:not(.show-link-previews):not(.extension-disabled) .docs-link-preview-image-container,
+body:not(.show-link-previews):not(.extension-disabled) .docs-bubble-link-preview-container {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    z-index: -9999 !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
