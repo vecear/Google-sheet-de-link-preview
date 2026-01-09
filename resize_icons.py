@@ -1,8 +1,8 @@
 from PIL import Image
 import os
 
-source_path = "c:/Users/wseu/Desktop/Code/Google excel delink/icon.png"
-base_dir = "c:/Users/wseu/Desktop/Code/Google excel delink"
+source_path = "c:/Users/vecea/Desktop/Code/Google-sheet-de-link-preview/icon_new.png"
+base_dir = "c:/Users/vecea/Desktop/Code/Google-sheet-de-link-preview"
 
 try:
     img = Image.open(source_path)
